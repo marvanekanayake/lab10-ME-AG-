@@ -1,3 +1,5 @@
+# https://github.com/marvanekanayake/lab10-ME-AG-/
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -23,7 +25,7 @@ def div(a, b):
 
 def log(a, b):
     if a > 0 and b > 0 and a!=1:
-        math.log(b, a)# use math library + raise ValueError
+        return math.log(b, a) # use math library + raise ValueError
     else:
         raise ValueError
 
