@@ -27,8 +27,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self): # 3 assertions
         assert(div(1,1) == 1)
-        assert(div(2,4) == 2)
-        assert(div(1,2) == 2)
+        assert(div(4,2) == 2)
+        assert(div(2,1) == 2)
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
@@ -55,7 +55,7 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_hypotenuse(self): # 3 assertions
-        assert(hypotenuse(1, 1) == 1)
+        assert(hypotenuse(5, 12) == 13)
         assert(hypotenuse(3, 4) == 5)
         assert(hypotenuse(8, 6) == 10)
 
