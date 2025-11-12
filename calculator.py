@@ -36,7 +36,7 @@ def div(a, b):
         return a/b
 
 
-def log(a, b):
+def logarithm(a, b):
     if a > 0 and b > 0 and a!=1:
         return math.log(b, a) # use math library + raise ValueError
     else:
